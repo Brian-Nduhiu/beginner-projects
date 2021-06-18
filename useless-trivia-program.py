@@ -7,14 +7,13 @@
 
 # Useless Trivia#
 #
-# Gets personal information from the user and then
-# prints true but useless information about him or her
 
+# Gets personal information from the user
 name = input("Hello, what is your name? \n")
 age = float(input("How old are you? \n"))
 weight = float(input("How much do you weigh in kilograms?\n"))
 
-
+# prints true but useless information about him or her
 print(
     f"If Johnson Sakaja were to email you, he would address you as {name.title()} \nbut if he was mad, he would address you as {name.upper()}\n")
 
