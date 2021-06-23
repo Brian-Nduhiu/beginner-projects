@@ -109,3 +109,18 @@
 #     print("Illegal mood value!  (You must be in a really bad mood).")
 
 # print("...today.")
+
+# Printing out all the letters in a string using a for loop
+# word = input("Enter the word: \n")
+# for letter in word:
+#     print(letter)
+
+
+# Using 3 parameters in the range method to denote the start of the range, end of the range and the
+# value by which to count/ iterate by
+# for item in range(0, 33, 3):
+#     print(item)
+
+# Using a negative iterator to move back through a range of values
+# for nums in range(100, 50, -5):
+#     print(nums)
