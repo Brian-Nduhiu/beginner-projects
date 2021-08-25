@@ -1,15 +1,10 @@
-# beginner-projects
+# Beginner Projects
 
-Python projects for absolute beginners
+A collection of simple python projects for beginners to practice their newly aquired skills.
 
-## List of all the beginner projects
 
-- Guess my number
-- Useless Trivia
-- Word Jumble
 
-## Upcoming projects
+Some Sources of these projects include:
+1. Python® Programming for the Absolute Beginner, Third Edition
 
-- Hangman Game
-  \*Tic Tac Toe
--
+
