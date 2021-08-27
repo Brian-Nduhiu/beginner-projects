@@ -57,3 +57,43 @@ for i4 in range(10):
     for j42 in range(i4):
         print(end=" " "#")
     print("\n")
+
+print("\n\n")
+
+
+# Full hour glass
+
+############
+##########
+########
+######
+####
+##
+##
+####
+######
+########
+##########
+############
+
+
+for i5 in range(10):
+    for j5 in range(i5):
+        print(end=" " " ")
+    for j52 in range(10-i5):
+        print(end=" " "#")
+    for j5 in range(10-i5):
+        print(end=" " "#")
+    for j52 in range(i5):
+        print(end=" " " ")
+    print("\n")
+for i6 in range(10):
+    for j6 in range(10-i6):
+        print(end=" " " ")
+    for j62 in range(i6):
+        print(end=" " "#")
+    for j6 in range(i6):
+        print(end=" " "#")
+    for j62 in range(10-i6):
+        print(end=" " " ")
+    print("\n")
