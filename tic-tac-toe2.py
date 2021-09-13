@@ -65,12 +65,12 @@ def emptyBoard():
 def win(moves):
     print()
     if (moves[0] == moves[1] == moves[2] == "X") or (moves[3] == moves[4] == moves[5] == "X") or (moves[6] == moves[7] == moves[8] == "X") or (moves[0] == moves[3] == moves[6] == "X") or (moves[1] == moves[4] == moves[7] == "X") or (moves[2] == moves[5] == moves[8] == "X") or (moves[0] == moves[4] == moves[8] == "X") or (moves[2] == moves[4] == moves[6] == "X"):
-        winner = "computer"
+        winer = "computer"
     elif  (moves[0] == moves[1] == moves[2] == "O") or (moves[3] == moves[4] == moves[5] == "O") or (moves[6] == moves[7] == moves[8] == "O") or (moves[0] == moves[3] == moves[6] == "O") or (moves[1] == moves[4] == moves[7] == "O") or (moves[2] == moves[5] == moves[8] == "O") or (moves[0] == moves[4] == moves[8] == "O") or (moves[2] == moves[4] == moves[6] == "O"):
-        winner = "user"
+        winer = "user"
     elif " " not in moves:
-        winner = "draw"
-    return winner
+        winer = "draw"
+    return winer
 
 
 
